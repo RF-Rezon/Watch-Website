@@ -9,6 +9,9 @@ export default {
         customGray: "#aaaaaa",
         customGold: "#cca471",
       },
+      animation: {
+        fade_in: "opacity 0.2s ease-in-out 0s",
+      },
     },
   },
 plugins: [],
