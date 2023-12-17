@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import {
-    HiMagnifyingGlass,
-    HiMiniChevronDown,
-    HiShoppingBag,
-    HiUser,
+  HiMagnifyingGlass,
+  HiMiniChevronDown,
+  HiShoppingBag,
+  HiUser,
 } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
@@ -18,10 +18,10 @@ const Navbar = () => {
   const handleMouseLeaveSmall = () => setSmallIsHidden(true); // Hide on un-hover
   return (
     <>
-      <div className="relative">
+      <div className="z-50">
         <div
           id="base-nav"
-          className="w-full h-[82.39px] bg-customBlue flex items-center justify-between px-8 fixed"
+          className="w-full h-[82.39px] bg-customBlue flex items-center justify-between px-8 relative"
         >
           <div id="logo" className="h-full cursor-pointer flex items-center">
             <img src="/public/logo_1.png" alt="logo" />
@@ -80,13 +80,15 @@ const Navbar = () => {
 
         {!isHidden && (
           <div
-            className="flex items-center justify-center"
+            className="flex items-center justify-center z-50 absolute top-14 w-full"
             onMouseOver={handleMouseEnter}
             onMouseOut={handleMouseLeave}
           >
-            <div className="absolute top-14 grid place-items-start grid-cols-4 w-full bg-customBlue border-2 border-white text-customGray mt-4 p-6">
+            <div className="grid place-items-start grid-cols-4 w-11/12 bg-customBlue border-2 border-white text-customGray mt-4 p-6">
               <div>
-                <h1 className="pb-4 cursor-pointer text-lg hover:text-customGold">Analog Watches</h1>
+                <p className="pb-4 cursor-pointer text-lg hover:text-customGold">
+                  Analog Watches
+                </p>
                 <p className="py-1 hover:text-customGold">
                   <Link to="#">BigOwl</Link>
                 </p>
@@ -104,9 +106,9 @@ const Navbar = () => {
                 </p>
               </div>
               <div>
-                <h1 className="pb-4 cursor-pointer hover:text-customGold text-lg">
+                <p className="pb-4 cursor-pointer hover:text-customGold text-lg">
                   Automatic Watches
-                </h1>
+                </p>
                 <p className="py-1 hover:text-customGold">
                   <Link to="#">Forsining</Link>
                 </p>
@@ -124,7 +126,9 @@ const Navbar = () => {
                 </p>
               </div>
               <div>
-                <h1 className="pb-4 cursor-pointer hover:text-customGold text-lg">Dress Watches</h1>
+                <p className="pb-4 cursor-pointer hover:text-customGold text-lg">
+                  Dress Watches
+                </p>
                 <p className="py-1 hover:text-customGold">
                   <Link to="#">Vestal</Link>
                 </p>
@@ -142,9 +146,9 @@ const Navbar = () => {
                 </p>
               </div>
               <div>
-                <h1 className="pb-4 cursor-pointer hover:text-customGold text-lg">
+                <p className="pb-4 cursor-pointer hover:text-customGold text-lg">
                   Mechanical Watches
-                </h1>
+                </p>
                 <p className="py-1 hover:text-customGold">
                   <Link to="#">Gold Dial</Link>
                 </p>
@@ -166,7 +170,7 @@ const Navbar = () => {
         )}
         {!isSmallHidden && (
           <div
-            className="uppercase absolute top-14 bg-customBlue border-2 border-white text-customGray p-2 w-48 left-1/2 mt-4"
+            className="z-50 uppercase absolute top-14 bg-customBlue border-2 border-white text-customGray p-2 w-48 left-1/2 mt-4"
             onMouseOver={handleMouseEnterSmall}
             onMouseOut={handleMouseLeaveSmall}
           >
