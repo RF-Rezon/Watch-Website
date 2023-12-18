@@ -13,7 +13,7 @@ const MiniCards = () => {
                 </div>
             </div>
             <div className='w-full h-60 border-[5px] border-customGray relative'>
-                <div className='absolute w-full h-full'><img src="/public/model-8.png" className='w-full h-full object-cover' alt="" /></div>
+                <div className='absolute w-full h-full'><img src="/model-8.png" className='w-full h-full object-cover' alt="" /></div>
                 <div className='absolute flex flex-col items-center justify-center w-full h-full p-14 gap-y-3'>
                     <p className='italic text-customGold font-medium text-2xl'>Flash Sale</p>
                     <p className='text-white text-4xl'>Couple's Watch</p>

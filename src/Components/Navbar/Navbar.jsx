@@ -24,7 +24,7 @@ const Navbar = () => {
           className="w-full h-[82.39px] bg-customBlue flex items-center justify-between px-8 relative"
         >
           <div id="logo" className="h-full cursor-pointer flex items-center">
-            <img src="/public/logo_1.png" alt="logo" />
+            <img src="/logo_1.png" alt="logo" />
           </div>
           <div
             id="options"

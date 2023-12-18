@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../Header/Header'
-import MiniCards from '../MiniCards/MiniCards'
+import SecondSection from '../SecondSection/SecondSection'
 
 const Home = () => {
   return (
     <>
     <div className='max-h-screen'>
         <Header />
-        <MiniCards />
+        <SecondSection/>
     </div>
     </>
   )

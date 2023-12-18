@@ -84,7 +84,7 @@ const Header = () => {
     data-te-slide="prev">
     <span className="flex w-10 h-10 items-center justify-center">
       <svg
-        xmlns="/public/right-arrow.svg"
+        xmlns="/right-arrow.svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth="1.5"
