@@ -10,7 +10,7 @@ initTE({ Carousel });
 const Header = () => {
   return (
     <div>
-      <div className='max-h-screen'>
+      <div>
 <div
   id="carouselExampleControls"
   className="relative"
