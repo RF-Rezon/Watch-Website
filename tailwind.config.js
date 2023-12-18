@@ -8,6 +8,7 @@ export default {
         customBlack: "#010001",
         customGray: "#aaaaaa",
         customGold: "#cca471",
+        customDarkBlue: "#020c1d",
         buttonBg: "#353535",
         custonBlackBg: "#000101",
       },
