@@ -1,4 +1,5 @@
 import React from "react";
+import FifthSection from "../ForthSection/FithSection/FifthSection";
 import ForthSection from "../ForthSection/ForthSection";
 import Header from "../Header/Header";
 import SecondSection from "../SecondSection/SecondSection";
@@ -12,6 +13,7 @@ const Home = () => {
         <SecondSection />
         <ThirdSection />
         <ForthSection />
+        <FifthSection />
       </div>
     </>
   );
