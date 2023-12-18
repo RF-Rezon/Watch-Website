@@ -32,7 +32,7 @@ const Header = () => {
           <div><p className='text-6xl border-b-customGold border-b-4 text-white inline-block'>Alertzy</p>
           <p className='py-6 text-customGold font-medium text-lg'>Exclusive Offer -20% Off This Week</p></div>
           <div className='pt-3 pb-8 font-medium'>
-            <p className='py-1 text-customGray'>Expanding the offering is the choice between a leather strap or a metal </p> <p className='py-1 text-customGray'> breacelet, branding the total new look. Black-tone stainless steel case with a </p> <p className='py-1 text-customGray'> black rubber strap. Scarah free sapphire crystal.</p>
+            <p className='py-1 text-customGray font-medium text-lg'>Expanding the offering is the choice between a leather strap or a metal </p> <p className='py-1 text-customGray font-medium text-lg'> breacelet, branding the total new look. Black-tone stainless steel case with a </p> <p className='py-1 text-customGray font-medium text-lg'> black rubber strap. Scarah free sapphire crystal.</p>
           </div>
           <div className='pb-11 flex items-center gap-x-5'><p className='font-medium text-lg text-customGray'>Starting @</p><p className='text-6xl text-customGold'>$ 250.00</p></div>
           <button className='uppercase w-52 py-3 px-4 bg-buttonBg font-medium border-b-[3px] border-b-customGold'>Explore Services</button>
@@ -50,7 +50,7 @@ const Header = () => {
           <div><p className='text-6xl border-b-customGold border-b-4 text-white inline-block'>Gertious</p>
           <p className='py-6 text-customGold font-medium text-lg'>Exclusive of Sales Tax</p></div>
           <div className='pt-3 pb-8'>
-            <p className='py-1 text-customGray font-medium'>The watch bracelet gives a much far colder personality. Dress watch style.</p> <p className='py-1 text-customGray font-medium'>Swiss made luxury watch. Strainless steel case with brown leather strap.</p> <p className='py-1 text-customGray font-medium'>Scratch resistant sapphire crystal.</p>
+            <p className='py-1 text-customGray font-medium text-lg'>The watch bracelet gives a much far colder personality. Dress watch style.</p> <p className='py-1 text-customGray font-medium text-lg'>Swiss made luxury watch. Strainless steel case with brown leather strap.</p> <p className='py-1 text-customGray font-medium text-lg'>Scratch resistant sapphire crystal.</p>
           </div>
           <div className='pb-11 flex items-center gap-x-5'><p className='font-medium text-lg text-customGray'>Starting @</p><p className='text-6xl text-customGold'>$ 350.00</p></div>
           <button className='uppercase w-52 py-3 px-4 bg-buttonBg font-medium border-b-[3px] border-b-customGold'>Explore Services</button>
@@ -68,7 +68,7 @@ const Header = () => {
           <div><p className='text-6xl border-b-customGold border-b-4 text-white inline-block'>Gorgeous</p>
           <p className='py-6 text-customGold font-medium text-lg'>Exclusive of Sales Tax</p></div>
           <div className='pt-3 pb-8 font-medium'>
-            <p className='py-1 text-customGray'>The watch bracelet gives a much far colder personality. Dress watch style.</p> <p className='py-1 text-customGray'>Swiss made luxury watch. Strainless steel case with brown leather strap.</p> <p className='py-1 text-customGray'>Scratch resistant sapphire crystal.</p>
+            <p className='py-1 text-customGray font-medium text-lg'>The watch bracelet gives a much far colder personality. Dress watch style.</p> <p className='py-1 text-customGray font-medium text-lg'>Swiss made luxury watch. Strainless steel case with brown leather strap.</p> <p className='py-1 text-customGray font-medium text-lg'>Scratch resistant sapphire crystal.</p>
           </div>
           <div className='pb-11 flex items-center gap-x-5'><p className='font-medium text-lg text-customGray'>Starting @</p><p className='text-6xl text-customGold'>$ 100.00</p></div>
           <button className='uppercase w-52 py-3 px-4 bg-buttonBg font-medium border-b-[3px] border-b-customGold'>Explore</button>

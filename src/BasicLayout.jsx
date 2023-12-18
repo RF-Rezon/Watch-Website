@@ -6,11 +6,12 @@ import Navbar from './Components/Navbar/Navbar';
 
 const BasicLayout = () => {
   return (
-    <>
-    <Navbar />
-    <Outlet />
-    <Footer />
-    </>
+    // <div>
+    <div className='bg-watch-bg min-h-screen'> 
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </div>
   )
 }
 

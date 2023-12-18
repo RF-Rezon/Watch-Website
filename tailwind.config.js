@@ -14,6 +14,9 @@ export default {
       animation: {
         fade_in: "opacity 0.2s ease-in-out 0s",
       },
+      backgroundImage: {
+        'watch-bg': "url('./../public/Bg1full.jpg')"
+      }
     },
   },
 plugins: [require("tw-elements/dist/plugin.cjs")],
