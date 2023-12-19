@@ -10,7 +10,7 @@ export default {
         customGold: "#cca471",
         customDarkBlue: "#020c1d",
         buttonBg: "#353535",
-        custonBlackBg: "#000101",
+        custonBlackBg: "#000101"
       },
       animation: {
         fade_in: "opacity 0.2s ease-in-out 0s",

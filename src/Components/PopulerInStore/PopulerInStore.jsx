@@ -73,8 +73,8 @@ const PopulerInStore = () => {
             data-te-tab-active
           >
             <div className="grid grid-cols-4 place-items-center gap-10 h-full">
-            {/* onClick={()=> navite("/product")}  */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            
+            <div  data-aos="fade-right" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-5.png" alt="" />
                 </div>
@@ -87,7 +87,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="800" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-11.png" alt="" />
                 </div>
@@ -100,7 +100,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="900" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -113,7 +113,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
@@ -134,7 +134,7 @@ const PopulerInStore = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-4 place-items-center gap-10 h-full">
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch22.png" alt="" />
                 </div>
@@ -147,7 +147,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="800" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
@@ -160,7 +160,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="900" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -173,7 +173,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
@@ -194,7 +194,7 @@ const PopulerInStore = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-4 place-items-center gap-10 h-full">
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
@@ -207,7 +207,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="800" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
                 </div>
@@ -220,7 +220,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="900" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -233,7 +233,7 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
                 </div>

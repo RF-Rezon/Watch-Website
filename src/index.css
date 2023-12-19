@@ -23,3 +23,6 @@ body {
 .zoom {
   transform: scale(1.5);
 }
+.dash_classes :not(:empty) {
+  color: black;
+}

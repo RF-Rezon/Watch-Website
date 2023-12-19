@@ -87,7 +87,7 @@ const SixthSection = () => {
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
 
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-5.png" alt="" />
                 </div>
@@ -96,7 +96,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-11.png" alt="" />
                 </div>
@@ -106,7 +106,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -116,7 +116,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
@@ -126,7 +126,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-9.png" alt="" />
                 </div>
@@ -144,7 +144,7 @@ const SixthSection = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch22.png" alt="" />
                 </div>
@@ -154,7 +154,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
@@ -164,7 +164,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -174,7 +174,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
@@ -192,7 +192,7 @@ const SixthSection = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
@@ -202,7 +202,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
                 </div>
@@ -212,7 +212,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -222,7 +222,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
                 </div>
@@ -239,7 +239,7 @@ const SixthSection = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
@@ -249,7 +249,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
                 </div>
@@ -259,7 +259,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
@@ -269,7 +269,7 @@ const SixthSection = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
+            <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
                 </div>

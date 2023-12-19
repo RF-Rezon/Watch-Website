@@ -23,8 +23,8 @@ const Navbar = () => {
           id="base-nav"
           className="w-full h-[82.39px] bg-customBlue flex items-center justify-between px-8 relative"
         >
-          <div id="logo" className="h-full cursor-pointer flex items-center">
-            <img src="/logo_1.png" alt="logo" />
+          <div id="logo" className="h-[58px] w-[236px] cursor-pointer flex items-center">
+            <img className="w-full h-full" src="/logo_1.png" alt="logo" />
           </div>
           <div
             id="options"
@@ -84,9 +84,9 @@ const Navbar = () => {
             onMouseOver={handleMouseEnter}
             onMouseOut={handleMouseLeave}
           >
-            <div className="grid place-items-start grid-cols-4 w-11/12 bg-customBlue border-2 border-white text-customGray mt-4 p-6">
+            <div data-aos="fade-in" data-aos-duration="600" className="grid place-items-start grid-cols-4 w-11/12 bg-customBlue border-2 border-white text-customGray mt-4 p-6">
               <div>
-                <p className="pb-4 cursor-pointer text-lg hover:text-customGold">
+                <p className="pb-4 font-playfair cursor-pointer hover:text-customGold font-medium text-lg">
                   Analog Watches
                 </p>
                 <p className="py-1 hover:text-customGold">
@@ -106,7 +106,7 @@ const Navbar = () => {
                 </p>
               </div>
               <div>
-                <p className="pb-4 cursor-pointer hover:text-customGold text-lg">
+                <p className="pb-4 font-playfair cursor-pointer hover:text-customGold font-medium text-lg">
                   Automatic Watches
                 </p>
                 <p className="py-1 hover:text-customGold">
@@ -126,7 +126,7 @@ const Navbar = () => {
                 </p>
               </div>
               <div>
-                <p className="pb-4 cursor-pointer hover:text-customGold text-lg">
+                <p className="pb-4 font-playfair cursor-pointer hover:text-customGold font-medium text-lg">
                   Dress Watches
                 </p>
                 <p className="py-1 hover:text-customGold">
@@ -146,7 +146,7 @@ const Navbar = () => {
                 </p>
               </div>
               <div>
-                <p className="pb-4 cursor-pointer hover:text-customGold text-lg">
+                <p className="pb-4 font-playfair cursor-pointer hover:text-customGold font-medium text-lg">
                   Mechanical Watches
                 </p>
                 <p className="py-1 hover:text-customGold">
@@ -169,7 +169,7 @@ const Navbar = () => {
           </div>
         )}
         {!isSmallHidden && (
-          <div
+          <div data-aos="fade-in" data-aos-duration="600"
             className="z-50 uppercase absolute top-14 bg-customBlue border-2 border-white text-customGray p-2 w-48 left-1/2 mt-4"
             onMouseOver={handleMouseEnterSmall}
             onMouseOut={handleMouseLeaveSmall}

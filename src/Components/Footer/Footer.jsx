@@ -5,13 +5,13 @@ import { IoIosMail } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-customBlack pb-10">
+      <footer className="bg-customBlack py-10">
         <div className="mx-auto max-w-screen-xl py-5">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="text-center sm:text-left">
               <p className="text-2xl font-medium text-white font-playfair">Help</p>
 
-              <ul className="mt-8 space-y-4 text-base">
+              <ul data-aos="fade-up" data-aos-duration="700" className="mt-8 space-y-4 text-base">
                 <li>
                   <a
                     className="text-customGray font-medium text-base transition  hover:text-customGold"
@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="text-center sm:text-left">
               <p className="text-2xl font-medium text-white font-playfair">Support</p>
 
-              <ul className="mt-8 space-y-4 text-base">
+              <ul data-aos="fade-up" data-aos-duration="700" className="mt-8 space-y-4 text-base">
                 <li>
                   <a
                     className="text-customGray font-medium text-base transition  hover:text-customGold"
@@ -111,7 +111,7 @@ const Footer = () => {
             <div className="text-center sm:text-left">
               <p className="text-2xl font-medium text-white font-playfair">Information</p>
 
-              <ul className="mt-8 space-y-4 text-base">
+              <ul data-aos="fade-up" data-aos-duration="700" className="mt-8 space-y-4 text-base">
                 <li>
                   <a
                     className="text-customGray font-medium text-base transition  hover:text-customGold"
@@ -162,7 +162,7 @@ const Footer = () => {
             <div className="text-center sm:text-left">
               <p className="text-2xl font-medium text-white font-playfair">Address</p>
 
-              <ul className="mt-8 space-y-4 text-base">
+              <ul data-aos="fade-up" data-aos-duration="700" className="mt-8 space-y-4 text-base">
                 <li>
                   <a
                     className="text-customGray font-medium text-base transition  hover:text-customGold"
@@ -214,7 +214,7 @@ const Footer = () => {
               <p className="text-2xl font-medium text-white font-playfair mb-4">
                 Connect with us
               </p>
-              <ul className="flex justify-start gap-6 py-2">
+              <ul data-aos="fade-up" data-aos-duration="700" className="flex justify-start gap-6 py-2">
                 <li>
                   <a
                     href="/"
@@ -327,7 +327,7 @@ const Footer = () => {
               <p className="text-2xl font-medium text-white font-playfair mb-4">
                 Download our app
               </p>
-              <ul className="flex justify-start gap-6 py-2">
+              <ul data-aos="fade-up" data-aos-duration="700" className="flex justify-start gap-6 py-2">
                 <li>
                   <a
                     href="/"
