@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Tab, initTE } from "tw-elements";
 
 initTE({ Tab });
@@ -6,10 +7,12 @@ initTE({ Tab });
 import ReactStars from 'react-stars';
 
 const PopulerInStore = () => {
+  let navite = useNavigate();
+
   return (
     <div className="flex flex-col gap-y-5 items-center w-full h-screen my-20">
       <div>
-        <p className="text-5xl border-b-customGold border-b-4 text-white inline-block mt-10 mb-5">
+        <p className="text-5xl font-playfair border-b-customGold border-b-4 text-white inline-block mt-10 mb-5">
           Populer In Store
         </p>
       </div>
@@ -70,12 +73,13 @@ const PopulerInStore = () => {
             data-te-tab-active
           >
             <div className="grid grid-cols-4 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            {/* onClick={()=> navite("/product")}  */}
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-5.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Analog Numeral</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Analog Numeral</p>
                     <p className="text-customGray font-semibold text-xl">$750.00</p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Baggit</p>
@@ -83,12 +87,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-11.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Black Numeral Dial</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Black Numeral Dial</p>
                     <p className="text-customGray font-semibold text-xl">$200.00  <span className="ml-2 line-through font-medium">$250.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Timzee</p>
@@ -96,12 +100,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Golden Automatic</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Automatic</p>
                     <p className="text-customGray font-semibold text-xl">$200.00 <span className="ml-2 line-through font-medium">$401.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Fostelo</p>
@@ -109,12 +113,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Golden Classical</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Classical</p>
                     <p className="text-customGray font-semibold text-xl">$301.00</p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Ex of Sale Tax</p>
@@ -130,12 +134,12 @@ const PopulerInStore = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-4 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch22.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Red & Black Numeral</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Red & Black Numeral</p>
                     <p className="text-customGray font-semibold text-xl">$401.00<span className="ml-2 line-through font-medium">$402.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Baggit</p>
@@ -143,12 +147,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Platinum Numeral</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Platinum Numeral</p>
                     <p className="text-customGray font-semibold text-xl">$200.00  <span className="ml-2 line-through font-medium">$201.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Fostelo</p>
@@ -156,12 +160,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Golden Automatic</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Automatic</p>
                     <p className="text-customGray font-semibold text-xl">$200.00 <span className="ml-2 line-through font-medium">$401.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Fostelo</p>
@@ -169,12 +173,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Golden Classical</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Classical</p>
                     <p className="text-customGray font-semibold text-xl">$301.00</p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Ex of Sale Tax</p>
@@ -190,12 +194,12 @@ const PopulerInStore = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-4 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Platinum Numeral</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Platinum Numeral</p>
                     <p className="text-customGray font-semibold text-xl">$200.00 <span className="ml-2 line-through font-medium">$201.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Fostelo</p>
@@ -203,12 +207,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Platinum Classic</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Platinum Classic</p>
                     <p className="text-customGray font-semibold text-xl">$450.00  <span className="ml-2 line-through font-medium">$452.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Baggit</p>
@@ -216,12 +220,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Golden Automatic</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Automatic</p>
                     <p className="text-customGray font-semibold text-xl">$200.00 <span className="ml-2 line-through font-medium">$401.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Fostelo</p>
@@ -229,12 +233,12 @@ const PopulerInStore = () => {
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-2 pt-6">Analogue Autometic</p>
+                    <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Analogue Autometic</p>
                     <p className="text-customGray font-semibold text-xl">$350.00<span className="ml-2 line-through font-medium">$400.00</span></p>
                     <p className=""><ReactStars count={5} size={23} color1={"#cca471"}/></p>
                     <p className="text-customGray font-normal text-lg pb-6">Fostelo</p>

@@ -17,6 +17,9 @@
   width: 100vw;
   z-index: -1000000;
 } */
+body {
+  font-family: "Arial", sans-serif;
+}
 .zoom {
   transform: scale(1.5);
 }

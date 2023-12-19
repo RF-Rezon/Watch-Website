@@ -29,7 +29,7 @@ const Header = () => {
         className="block w-full"
         alt="black_watch" />
         <div className='absolute text-white w-full top-[25%] left-[20%]'>
-          <div><p className='text-6xl border-b-customGold border-b-4 text-white inline-block'>Alertzy</p>
+          <div><p className='text-6xl font-playfair font-medium border-b-customGold border-b-4 text-white inline-block'>Alertzy</p>
           <p className='py-6 text-customGold font-medium text-lg'>Exclusive Offer -20% Off This Week</p></div>
           <div className='pt-3 pb-8 font-medium'>
             <p className='py-1 text-customGray font-medium text-lg'>Expanding the offering is the choice between a leather strap or a metal </p> <p className='py-1 text-customGray font-medium text-lg'> breacelet, branding the total new look. Black-tone stainless steel case with a </p> <p className='py-1 text-customGray font-medium text-lg'> black rubber strap. Scarah free sapphire crystal.</p>
@@ -47,7 +47,7 @@ const Header = () => {
         className="block w-full"
         alt="blue_watch" />
          <div className='absolute text-white w-full top-[25%] left-[50%]'>
-          <div><p className='text-6xl border-b-customGold border-b-4 text-white inline-block'>Gertious</p>
+          <div><p className='text-6xl font-playfair font-medium border-b-customGold border-b-4 text-white inline-block'>Gertious</p>
           <p className='py-6 text-customGold font-medium text-lg'>Exclusive of Sales Tax</p></div>
           <div className='pt-3 pb-8'>
             <p className='py-1 text-customGray font-medium text-lg'>The watch bracelet gives a much far colder personality. Dress watch style.</p> <p className='py-1 text-customGray font-medium text-lg'>Swiss made luxury watch. Strainless steel case with brown leather strap.</p> <p className='py-1 text-customGray font-medium text-lg'>Scratch resistant sapphire crystal.</p>
@@ -65,7 +65,7 @@ const Header = () => {
         className="block w-full"
         alt="black_white_watch" />
          <div className='absolute text-white top-[25%] left-[18%] w-1/3 flex flex-col items-center text-center'>
-          <div><p className='text-6xl border-b-customGold border-b-4 text-white inline-block'>Gorgeous</p>
+          <div><p className='text-6xl font-playfair font-medium border-b-customGold border-b-4 text-white inline-block'>Gorgeous</p>
           <p className='py-6 text-customGold font-medium text-lg'>Exclusive of Sales Tax</p></div>
           <div className='pt-3 pb-8 font-medium'>
             <p className='py-1 text-customGray font-medium text-lg'>The watch bracelet gives a much far colder personality. Dress watch style.</p> <p className='py-1 text-customGray font-medium text-lg'>Swiss made luxury watch. Strainless steel case with brown leather strap.</p> <p className='py-1 text-customGray font-medium text-lg'>Scratch resistant sapphire crystal.</p>

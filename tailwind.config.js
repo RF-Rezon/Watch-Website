@@ -17,7 +17,11 @@ export default {
       },
       backgroundImage: {
         'watch-bg': "url('./../public/Bg1full.jpg')"
-      }
+      },
+      fontFamily: {
+        playfair: ['Playfair Display'],
+        // Add more font families as needed
+      },
     },
   },
 plugins: [require("tw-elements/dist/plugin.cjs")],

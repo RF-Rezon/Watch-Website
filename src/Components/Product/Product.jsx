@@ -5,8 +5,8 @@ const Product = () => {
     <div className='h-full'>
         <div className="h-[265px] w-full flex items-center justify-center bg-white bg-opacity-70">
             <div className='text-center space-y-4'>
-                <p className='text-4xl font-medium tracking-widest'>PRODUCT</p>
-                <p className='text-lg font-medium'>All/Red & Black Numeral</p>
+                <p className='text-4xl font-medium tracking-widest font-playfair'>PRODUCT</p>
+                <p className='text-lg font-normal'>All/Black Numeral Dial</p>
             </div>
         </div>
         <div className='grid grid-cols-2 w-full bg-custonBlackBg'>
@@ -21,7 +21,7 @@ const Product = () => {
             </div>
             <div className='flex items-start pt-20 justify-center'>
                 <div>
-                    <p className='text-4xl font-medium text-white py-8'>Analog Numeral</p>
+                    <p className='text-4xl font-medium text-white py-8 font-playfair'>Analog Numeral</p>
                     <div className='flex gap-x-5'>
                     <div className='text-customGray space-y-4'>
                         <p>Price</p>

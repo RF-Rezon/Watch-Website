@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-xl py-5">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="text-center sm:text-left">
-              <p className="text-2xl font-medium text-white">Help</p>
+              <p className="text-2xl font-medium text-white font-playfair">Help</p>
 
               <ul className="mt-8 space-y-4 text-base">
                 <li>
@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
 
             <div className="text-center sm:text-left">
-              <p className="text-2xl font-medium text-white">Support</p>
+              <p className="text-2xl font-medium text-white font-playfair">Support</p>
 
               <ul className="mt-8 space-y-4 text-base">
                 <li>
@@ -109,7 +109,7 @@ const Footer = () => {
             </div>
 
             <div className="text-center sm:text-left">
-              <p className="text-2xl font-medium text-white">Information</p>
+              <p className="text-2xl font-medium text-white font-playfair">Information</p>
 
               <ul className="mt-8 space-y-4 text-base">
                 <li>
@@ -160,7 +160,7 @@ const Footer = () => {
             </div>
 
             <div className="text-center sm:text-left">
-              <p className="text-2xl font-medium text-white">Address</p>
+              <p className="text-2xl font-medium text-white font-playfair">Address</p>
 
               <ul className="mt-8 space-y-4 text-base">
                 <li>
@@ -211,7 +211,7 @@ const Footer = () => {
 
           <div className="mt-16 flex items-center justify-between">
             <div>
-              <p className="text-2xl font-medium text-white mb-4">
+              <p className="text-2xl font-medium text-white font-playfair mb-4">
                 Connect with us
               </p>
               <ul className="flex justify-start gap-6 py-2">
@@ -324,7 +324,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="text-2xl font-medium text-white mb-4">
+              <p className="text-2xl font-medium text-white font-playfair mb-4">
                 Download our app
               </p>
               <ul className="flex justify-start gap-6 py-2">

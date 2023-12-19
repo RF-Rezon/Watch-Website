@@ -1,16 +1,18 @@
 import React from 'react';
-
+import { useNavigate } from "react-router-dom";
 import { Tab, initTE } from "tw-elements";
 
 initTE({ Tab });
 
 const SixthSection = () => {
+  let navite = useNavigate();
+
   return (
     <div>
         <div className='bg-custonBlackBg w-full h-screen'>
         <div className="flex flex-col gap-y-5 items-center w-full h-screen pt-20 pb-5">
       <div>
-        <p className="text-5xl border-b-customGold border-b-4 text-white inline-block mt-10 mb-5">
+        <p className="text-5xl font-playfair border-b-customGold border-b-4 text-white inline-block mt-10 mb-5">
         Product Categories
         </p>
       </div>
@@ -84,51 +86,52 @@ const SixthSection = () => {
             data-te-tab-active
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-5.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Analog Numeral</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Analog Numeral</p>
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-11.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Black Numeral Dial</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Black Numeral Dial</p>
                    
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Golden Automatic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
                   
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Golden Classical</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Golden Classical</p>
                     
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-9.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Classica Nemeral</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Classica Nemeral</p>
                     
                 </div>
             </div>
@@ -141,42 +144,42 @@ const SixthSection = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch22.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Red & Black Numeral</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Red & Black Numeral</p>
                    
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Platinum Numeral</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Numeral</p>
                    
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Golden Automatic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
                    
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Golden Classical</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Golden Classical</p>
                   
                 </div>
             </div>
@@ -189,42 +192,42 @@ const SixthSection = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Platinum Numeral</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Numeral</p>
                     
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Platinum Classic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Classic</p>
                    
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Golden Automatic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
                   
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Analogue Autometic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Analogue Autometic</p>
                 </div>
             </div>
             </div>
@@ -236,42 +239,42 @@ const SixthSection = () => {
             aria-labelledby="tabs-profile-tab4"
           >
             <div className="grid grid-cols-5 place-items-center gap-10 h-full">
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/Watch21.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Platinum Numeral</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Numeral</p>
                     
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Platinum Classic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Classic</p>
                    
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Golden Automatic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
                   
                 </div>
             </div>
             {/* //////////////////////////////////////////////////// */}
-            <div className="w-full h-full bg-custonBlackBg flex flex-col items-center">
+            <div onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
                     <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
-                    <p className="text-white font-medium text-2xl py-6">Analogue Autometic</p>
+                    <p className="text-white font-medium font-playfair text-2xl py-6">Analogue Autometic</p>
                 </div>
             </div>
             </div>

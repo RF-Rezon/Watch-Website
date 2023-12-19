@@ -12,7 +12,7 @@ const FifthSection = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-custonBlackBg hover:opacity-0 opacity-30"></div>
           <div className="absolute top-[25%] left-[5%] flex flex-col items-center justify-center gap-y-2">
-            <p className="text-white font-medium text-2xl">Versits</p>
+            <p className="text-white font-medium font-playfair text-2xl">Versits</p>
             <p className="py-1 text-customGray px-3 font-medium text-base">
               Rhuyese ser sagittis magna. Sed consequat, leo eget bibendum
               sodales, augue velit cursus nunc.uis leo. Sed fringilla
@@ -32,7 +32,7 @@ const FifthSection = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-custonBlackBg hover:opacity-0 opacity-30"></div>
           <div className="absolute top-[25%] left-[5%] flex flex-col items-center justify-center gap-y-2">
-            <p className="text-white font-medium text-2xl">Versits</p>
+            <p className="text-white font-medium font-playfair text-2xl">Versits</p>
             <p className="py-1 text-customGray px-3 font-medium text-base">
               Kiures guyrese ngittis magna. Sed consequat, leo eget bibendum
               sodales, augue velit cursus nunc.uis leo. Sed fringilla
@@ -52,7 +52,7 @@ const FifthSection = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-custonBlackBg hover:opacity-0 opacity-30"></div>
           <div className="absolute top-[25%] left-[5%] flex flex-col items-center justify-center gap-y-2">
-            <p className="text-white font-medium text-2xl">Javeline</p>
+            <p className="text-white font-medium font-playfair text-2xl">Javeline</p>
             <p className="py-1 text-customGray px-3 font-medium text-base">
               Hiue wghres rhuyres magna. Sed consequat, leo eget bibendum
               sodales, augue velit cursus nunc.uis leo. Sed fringilla
@@ -72,7 +72,7 @@ const FifthSection = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-custonBlackBg hover:opacity-0 opacity-30"></div>
           <div className="absolute top-[25%] left-[5%] flex flex-col items-center justify-center gap-y-2">
-            <p className="text-white font-medium text-2xl">Voltamic</p>
+            <p className="text-white font-medium font-playfair text-2xl">Voltamic</p>
             <p className="py-1 text-customGray px-3 font-medium text-base">
               Biurese guyrese orese jittis magna. Sed consequat, leo eget
               bibendum sodales, augue velit cursus nunc.uis leo. Sed
@@ -92,7 +92,7 @@ const FifthSection = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-custonBlackBg hover:opacity-0 opacity-30"></div>
           <div className="absolute top-[25%] left-[5%] flex flex-col items-center justify-center gap-y-2">
-            <p className="text-white font-medium text-2xl">Cerutaio</p>
+            <p className="text-white font-medium font-playfair text-2xl">Cerutaio</p>
             <p className="py-1 text-customGray px-3 font-medium text-base">
               Ulreser tellus marquestis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.uis leo. Sed fringilla
               mauris sit amet
@@ -111,7 +111,7 @@ const FifthSection = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-custonBlackBg hover:opacity-0 opacity-30"></div>
           <div className="absolute top-[25%] left-[5%] flex flex-col items-center justify-center gap-y-2">
-            <p className="text-white font-medium text-2xl">Zerairo</p>
+            <p className="text-white font-medium font-playfair text-2xl">Zerairo</p>
             <p className="py-1 text-customGray px-3 font-medium text-base">
               Biurese hierese ciseittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.uis leo. Sed fringilla mauris sit
               amet
