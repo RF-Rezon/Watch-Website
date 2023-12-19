@@ -31,7 +31,7 @@ const Navbar = () => {
             className=" h-full flex items-center justify-between"
           >
             <ul className="flex items-center justify-between space-x-10 text-lg font-medium text-customGray uppercase tracking-widest">
-              <li className="hover:text-customGold cursor-pointer">Home</li>
+              <li className="hover:text-customGold cursor-pointer"><a href="/">Home</a></li>
               <li
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="cursor-pointer hover:text-customGold">
-                Contact Us
+              <a href="/">Contact Us</a>
               </li>
             </ul>
           </div>
