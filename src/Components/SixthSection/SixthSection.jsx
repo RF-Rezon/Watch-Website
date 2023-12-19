@@ -8,10 +8,10 @@ const SixthSection = () => {
   return (
     <div>
         <div className='bg-custonBlackBg w-full h-screen'>
-        <div className="flex flex-col gap-y-5 items-center w-full h-screen py-20">
+        <div className="flex flex-col gap-y-5 items-center w-full h-screen pt-20 pb-5">
       <div>
         <p className="text-5xl border-b-customGold border-b-4 text-white inline-block mt-10 mb-5">
-          Populer In Store
+        Product Categories
         </p>
       </div>
       <div className="w-full flex flex-col items-center gap-y-2">

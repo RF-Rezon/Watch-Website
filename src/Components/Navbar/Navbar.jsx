@@ -30,7 +30,7 @@ const Navbar = () => {
             id="options"
             className=" h-full flex items-center justify-between"
           >
-            <ul className="flex items-center justify-between space-x-10 text-lg font-semibold text-customGray uppercase tracking-widest">
+            <ul className="flex items-center justify-between space-x-10 text-lg font-medium text-customGray uppercase tracking-widest">
               <li className="hover:text-customGold cursor-pointer">Home</li>
               <li
                 onMouseOver={handleMouseEnter}
