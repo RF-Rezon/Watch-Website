@@ -89,7 +89,7 @@ const SixthSection = () => {
 
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-5.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-5.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Analog Numeral</p>
@@ -98,7 +98,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-11.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-11.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Black Numeral Dial</p>
@@ -108,7 +108,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
@@ -118,7 +118,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Golden Classical</p>
@@ -128,7 +128,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-9.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-9.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Classica Nemeral</p>
@@ -166,7 +166,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
@@ -176,7 +176,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Golden Classical</p>
@@ -204,7 +204,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch20.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Classic</p>
@@ -214,7 +214,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
@@ -224,7 +224,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-4.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Analogue Autometic</p>
@@ -251,7 +251,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch20.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Platinum Classic</p>
@@ -261,7 +261,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Golden Automatic</p>
@@ -271,7 +271,7 @@ const SixthSection = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="zoom-in" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-4.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium font-playfair text-2xl py-6">Analogue Autometic</p>

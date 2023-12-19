@@ -76,7 +76,7 @@ const PopulerInStore = () => {
             
             <div  data-aos="fade-right" data-aos-duration="700" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-5.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-5.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Analog Numeral</p>
@@ -89,7 +89,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="800" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-11.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-11.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Black Numeral Dial</p>
@@ -102,7 +102,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="900" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Automatic</p>
@@ -115,7 +115,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="1000" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Classical</p>
@@ -162,7 +162,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="900" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Automatic</p>
@@ -175,7 +175,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="1000" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-15.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-15.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Classical</p>
@@ -209,7 +209,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="800" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch20.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch20.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Platinum Classic</p>
@@ -222,7 +222,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="900" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/Watch18.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/Watch18.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Golden Automatic</p>
@@ -235,7 +235,7 @@ const PopulerInStore = () => {
             {/* //////////////////////////////////////////////////// */}
             <div data-aos="fade-right" data-aos-duration="1000" onClick={()=> navite("/product")}  className="w-full h-full bg-custonBlackBg flex cursor-pointer  flex-col items-center">
                 <div className="basis-[55%] bg-gray-500 hover:bg-customGray flex items-center justify-center">
-                    <img className="w-full h-full object-cover" src="/public/watch-4.png" alt="" />
+                    <img className="w-full h-full object-cover" src="/watch-4.png" alt="" />
                 </div>
                 <div className="basis-[45%] flex flex-col items-center">
                     <p className="text-white font-medium text-2xl font-playfair py-2 pt-6">Analogue Autometic</p>

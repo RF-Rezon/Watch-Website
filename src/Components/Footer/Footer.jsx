@@ -388,42 +388,42 @@ const Footer = () => {
         <div className="flex items-center gap-x-3">
           <div className="w-full h-full">
             <img
-              src="/public/card-1.svg"
+              src="/card-1.svg"
               className="w-full h-full object-cover"
               alt=""
             />
           </div>
           <div className="w-full h-full">
             <img
-              src="/public/card-2.svg"
+              src="/card-2.svg"
               className="w-full h-full object-cover"
               alt=""
             />
           </div>
           <div className="w-full h-full">
             <img
-              src="/public/card-3.svg"
+              src="/card-3.svg"
               className="w-full h-full object-cover"
               alt=""
             />
           </div>
           <div className="w-full h-full">
             <img
-              src="/public/card-4.svg"
+              src="/card-4.svg"
               className="w-full h-full object-cover"
               alt=""
             />
           </div>
           <div className="w-full h-full">
             <img
-              src="/public/card-5.svg"
+              src="/card-5.svg"
               className="w-full h-full object-cover"
               alt=""
             />
           </div>
           <div className="w-full h-full">
             <img
-              src="/public/card-6.svg"
+              src="/card-6.svg"
               className="w-full h-full object-cover"
               alt=""
             />

@@ -18,7 +18,7 @@ const Product = () => {
             className="w-4/6 h-4/6 cursor-move"
           >
             <motion.img
-              src="/public/watch-10.png"
+              src="/watch-10.png"
               className="w-full h-full object-cover"
               alt=""
               drag
